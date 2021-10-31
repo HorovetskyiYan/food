@@ -1,0 +1,191 @@
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+html{
+	height: 100%;
+	  width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	height: 100%;
+	  width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.page-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+.container{
+    max-width: 1140px; !important   
+}
+img{
+	max-width: 100%;
+}
+.main-box-slider{
+}
+.main-bg-slider{
+    background: url(../img/bg-food.png) 0 0 / 100% no-repeat;
+    background-size:100%;
+    max-height: 550px;
+}
+.main-slider-item{
+    overflow: hidden;
+}
+.main-slider-item img{
+    width: 270px;
+     height: 550px;
+      object-fit: cover;
+}
+ /* Слайдер */ 
+ .slick-slider{}
+  /* Слайдер запущен */ .slick-slider.slick-initialized{}
+   /* Слайдер с точками */ .slick-slider.slick-dotted{} 
+/* Ограничивающая оболочка */ .slick-list {
+    overflow: hidden;
+} 
+/* Лента слайдов */ 
+.slick-track{
+display: flex;
+align-items: center;
+}
+/* Слайд */ .slick-slide{} 
+/* Слайд активный (показывается) */ .slick-slide.slick-active{} 
+/* Слайд основной */ .slick-slide.slick-current{} 
+/* Слайд по центру */ .slick-slide.slick-center{} 
+/* Клонированный слайд */ .slick-slide.slick-cloned{}
+/* Стрелка */ .slick-arrow{} 
+/* Стрелка влево */ .slick-arrow.slick-prev{} 
+/* Стрелка вправо */ .slick-arrow.slick-next{} 
+/* Стрелка не активная */ .slick-arrow.slick-disabled{}
+/* Точки (булиты) */ .slick-dots{} .slick-dots li{} 
+/* Активная точка */ .slick-dots li.slick-active{} 
+/* Элемент точки */ .slick-dots li button{} 
+.main-slider{
+    position: relative;
+    padding: 0 50px;
+}
+.main-slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    z-index: 10;
+    font-size: 0;
+    width: 46px;
+    height: 46px;
+    border: none;
+}
+.main-slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url(../img/arr-l.png) 0 0 / 100% no-repeat;
+}
+.main-slider .slick-arrow.slick-next{
+    right: 0;
+    background: url(../img/arr-r.png) 0 0 / 100% no-repeat;
+}
+.main-slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-slider .slick-dots li{
+    list-style: none;
+    margin: 0 5px;
+} 
+.main-slider .slick-dots li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ececef;
+
+}
+.main-slider .slick-dots li.slick-active button{
+    background-color: black;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h3+p{
+    font-family: 'Open Sans', sans-serif;
+}
+img+h5{
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+.bg-y:before{
+content: '';
+background: url(../img/bg-y.png) 0 0 /100% no-repeat;
+position: absolute;
+top: 1%;
+left: 1%;
+max-height: 630px;
+max-width: 630px;
+}
+.mt-14{
+    margin-top: 140px;
+}
+.main-link a{
+    text-decoration: none;
+    background-color: #fff1d7;
+    padding: 15px 30px;
+    color: black;
+    border-radius: 9%;
+}
+.mt-11{
+    margin-top: 110px;
+}
+.main-social-ikons a{
+    display: inline-block;
+    margin: 0 10px ;
+}
+.main-instagram{
+    width: 41px;
+    height: 41px;
+    background: url(../img/inst.png) 0 0 / 100% no-repeat;
+
+}
+.main-youtube{
+     width: 41px;
+    height: 41px;
+    background: url(../img/ytub.png) 0 0 / 100% no-repeat;
+}
+.main-facebook{
+     width: 41px;
+    height: 41px;
+    background: url(../img/fb.png) 0 0 / 100% no-repeat;
+}
+.main-twitter{
+     width: 41px;
+    height: 41px;
+    background: url(../img/twr.png) 0 0 / 100% no-repeat;
+}
+.relative{
+    position: relative;
+}
+.main-line:before{
+    content: '';
+border: 1px solid #8c838370;
+top: 37%;
+left: 111%;
+width: 77px;
+position: absolute;
+}
